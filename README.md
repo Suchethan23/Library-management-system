@@ -50,3 +50,39 @@ LibraryManagementSystem/
 │ └── LibraryManagementSystem.java # Main program (menu-driven)
 │
 └── README.md
+
+
+
+
+---
+
+## ▶️ How to Run
+
+1. **Clone the repo**
+   ```sh
+   git clone https://github.com/your-username/LibraryManagementSystem.git
+   cd LibraryManagementSystem
+
+
+2. Run from the project root where Abstracts/, Interfaces/, and LMS/ folders exist
+   javac *.java
+   java LibraryManagementSystem
+
+
+# Example console flow
+=== Library Menu ===
+1. Add Book
+2. Remove Book
+3. Show All Books
+4. Add Borrower
+5. Show All Borrowers
+6. Issue Book
+7. Return Book
+8. Exit
+Enter choice: 1
+
+Enter Book ID: 101
+Enter Book Title: Java Basics
+Enter Book Author: James Gosling
+Book added successfully!
+
