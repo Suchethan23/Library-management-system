@@ -43,6 +43,7 @@ This project is designed to practice **Java fundamentals**, **package organizati
 
 
 2. Run from the project root where Abstracts/, Interfaces/, and LMS/ folders exist
+   ```sh
    javac *.java
    java LibraryManagementSystem
 
